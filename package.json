@@ -1,0 +1,8 @@
+{
+  "name": "building-my-react-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CarlosEspinosa88/building-my-react-framework.git",
+  "author": "Carlos Espinosa <carloespinosa88@gmail.com>",
+  "license": "MIT"
+}
