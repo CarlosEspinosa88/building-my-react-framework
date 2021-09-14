@@ -4,5 +4,22 @@
   "main": "index.js",
   "repository": "https://github.com/CarlosEspinosa88/building-my-react-framework.git",
   "author": "Carlos Espinosa <carloespinosa88@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve --config ./webpack.config.js --open",
+    "build": "webpack serve --config ./webpack.prod.js --open",
+    "start": "webpack --config webpack.prod.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.15.4",
+    "@babel/core": "7.15.5",
+    "@babel/preset-env": "7.15.6",
+    "@babel/preset-react": "7.14.5",
+    "babel-loader": "8.2.2",
+    "html-loader": "2.1.2",
+    "html-webpack-plugin": "5.3.2",
+    "webpack": "5.52.1",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "4.2.1"
+  }
 }
