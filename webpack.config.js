@@ -32,8 +32,12 @@ const webpackDevConfig = {
         use: ['babel-loader'],
       },
       {
-        test: /\.html$/i,
+        test: /\.html$/,
         loader: 'html-loader',
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       },
     ]
   },

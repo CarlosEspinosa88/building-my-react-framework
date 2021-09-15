@@ -1,4 +1,5 @@
 /** @jsx Alchemy.createElement */
+import './styles.css';
 
 function createElement(type, props, ...children) {
   return {
@@ -48,13 +49,22 @@ const Alchemy = {
 }
 
 const element = (
-  <div>
+  <div className="app">
     <h1>Bienvenidos a Alchemy</h1>
-    <ul>
-      <li>Mi versión personalizada de ReactDom</li>
-      <li>La magia de crear elementos con la función createElement</li>
-      <li>La magia de mostrar elementos en el DOM con la función render</li>
-    </ul>
+    <div className="box">
+      <div>
+        <p>Mi versión personalizada de</p>
+        <p><strong>ReactDom</strong>.</p>
+      </div>
+      <div>
+        <p>La magia de crear elementos con la función</p>
+        <p><strong>createElement</strong>.</p>
+      </div>
+      <div>
+        <p>La magia de mostrar elementos en el DOM con la función</p>
+        <p><strong>render</strong>.</p>
+      </div>
+    </div>
   </div>
 )
 
